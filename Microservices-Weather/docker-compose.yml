@@ -6,7 +6,7 @@ services:
     environment:
       - POSTGRES_DATABASE=cloud_weather-precipitation
       - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=turtoise2
+      - POSTGRES_PASSWORD=password
     ports:
       - 5432:5432
     volumes:
